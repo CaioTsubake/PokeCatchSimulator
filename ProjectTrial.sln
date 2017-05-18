@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstDLL", "FirstDLL\FirstDLL.csproj", "{F72B0062-15AF-4397-93CE-B10EAE8EE500}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeCatchSimulator", "PokeCatchSymulator\PokeCatchSimulator.csproj", "{BC1F1F2C-4CFE-45D5-A265-C0361718A1AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeCatchSimulatorTests", "SimulatorTests\PokeCatchSimulatorTests.csproj", "{D3DA8EC3-BFE1-47FC-936B-BFE41125EE0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F72B0062-15AF-4397-93CE-B10EAE8EE500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F72B0062-15AF-4397-93CE-B10EAE8EE500}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F72B0062-15AF-4397-93CE-B10EAE8EE500}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F72B0062-15AF-4397-93CE-B10EAE8EE500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1F1F2C-4CFE-45D5-A265-C0361718A1AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1F1F2C-4CFE-45D5-A265-C0361718A1AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1F1F2C-4CFE-45D5-A265-C0361718A1AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1F1F2C-4CFE-45D5-A265-C0361718A1AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3DA8EC3-BFE1-47FC-936B-BFE41125EE0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3DA8EC3-BFE1-47FC-936B-BFE41125EE0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3DA8EC3-BFE1-47FC-936B-BFE41125EE0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3DA8EC3-BFE1-47FC-936B-BFE41125EE0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
